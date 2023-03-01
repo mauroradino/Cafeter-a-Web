@@ -175,7 +175,7 @@ footer{
 .mapas{
     width: 300px;
     height: 300px;
-    margin: 20px;
+    margin: 60px;
     display: inline-block;
 }
 .numero_telefono{
@@ -201,8 +201,45 @@ footer{
 }
 .dir{
     display: table-caption;
-    margin-top: -50px;
+    margin-top: -20px;
 }
 .dir1{
-    margin-top: -40px;
+    margin-top: -20px;
+}
+li{
+    list-style-type: none;
+}
+.link_wpp{
+    text-decoration: none;
+    color: black;
+}
+.link_wpp:hover{
+    text-decoration: underline;
+}
+.link_mail{
+    text-decoration: none;
+    color: black;
+}
+.link_mail:hover{
+    text-decoration: underline;
+}
+.li_mail{
+    margin-top: 10px;
+}
+.lista_contacto{
+    padding-top: 40px;
+    margin: 0px;
+}
+.foto_contacto{
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.imagen_contacto{
+    width: -webkit-fill-available;
+    margin-bottom: 60px;
+    background-image: url("https://imgs.search.brave.com/fDaRJ7BA3ntwXa6LVIISjo9reqYgYG25mmR1EoUHrBw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Jm/L2M0LzNjYmZjNDY5/MmY0MTQ2MzQzZmQ3/NDRiNjcwYTczOTFl/LmpwZw") no-repeat center fixed;
+    background-size: cover;
+    filter: opacity(0.7);
+    margin-top: 100px;
 }
