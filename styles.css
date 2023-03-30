@@ -1,297 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Noto+Sans+TC&family=Unbounded:wght@200&display=swap');
-@media (min-width:1024px){
-.body{
-    height: 100vh;
-}
-.collapse{
-    justify-content: end;
-}
-nav{
-    background-color: #362a21;
-    padding: 10px;
-}
-.nav-link{
-    color: white;
-}
-.navbar-brand{
-    color: white;
-    font-family: 'Unbounded';
-    font-weight: bolder;
-    font-size: 30px;
-}
-.logo_header{
-    width: 80px;
-    margin-left: 10px;
-}
-h1{
-    color: white;
-    font-family: 'Unbounded';
-}
-.main_index{
-    background-color: #cba993;
-    display: flex;
-    justify-content: center;
-}
-.btn_ver{
-    display: flex;
-    margin: auto;
-    font-weight: bold;
-    border-radius: 6px;
-    width: 120px;
-    margin-bottom: 60px;
-    justify-content: center;
-    background-color: #C7967C;
-    height: 50px;
-    align-items: center;
-}
-a{
-    text-decoration: none;
-}
-main{
-    background-color: #cba993;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
-.tortas {
-    text-align: center;
-    margin-top: 50px;
-    color: black;
-    font-weight: bold;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: auto;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
-  }
-  
-  .titulo_combo {
-    text-align: center;
-    margin: 10px;
-    font-weight: bold;
-  }
-  
-  .foto_combo {
-    width: 100%;
-    height: 200px;
-    margin: 10px;
-  }
-  
-  .descripcion_combo {
-    justify-content: center;
-    font-size: 14px;
-    margin-top: 2%;
-    height: 100px;
-  }
-  
-  /* Estilos para la sección de Jugos */
-  .jugos {
-    text-align: center;
-    margin-top: 50px;
-    color: black;
-    font-weight: bold;
-  }
-  
-  .grid2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: auto;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
-  }
-  
-  .foto_jugos {
-    width: 100%;
-    height: 200px;
-    margin: 10px;
-  }
-  
-  .descripcion_combo2 {
-    justify-content: center;
-    font-size: 14px;
-    margin-top: 2%;
-    height: 100px;
-  }
-  
-  /* Estilos para la sección de Postres */
-  .postres {
-    text-align: center;
-    margin-top: 50px;
-    color: black;
-    font-weight: bold;
-  }
-  
-  .grid3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: auto;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
-  }
-  
-  .foto_torta {
-    width: 100%;
-    height: 200px;
-    margin: 10px;
-  }
-  
-  .descripcion_combo3 {
-    justify-content: center;
-    font-size: 14px;
-    margin-top: 2%;
-    height: 100px;
-  }
-  
-  /* Estilos para la sección de Promociones */
-  .promociones {
-    text-align: center;
-    margin-top: 50px;
-    color: black;
-    font-weight: bold;
-  }
-  
-  .grid4 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: auto;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
-  }
-  
-  .foto_promocion {
-    width: 100%;
-    height: 200px;
-    margin: 10px;
-  }
-  
-  .descripcion_promocion {
-    justify-content: center;
-  }  
-.imagen_main{ 
-    width: 40%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.contenedor_imagen{
-    display: flex;
-    justify-content: center;
-}
-.contenedor_main{
-    display: inline-block;
-}
-.titulo_main_index{
-    font-weight: bolder;
-    font-family: 'Unbounded', cursive;
-    font-size: 60px;
-    color: black;
-    text-align: center;
-    text-shadow: 1px 4px white;
-    margin: 5%;
-}
-.bienvenida{
-    margin: 60px;
-}
-footer{
-    margin:0px;
-    padding-top: 0px;
-    background-color: #C7967C;
-}
-.mapa1{
-    width: 300px;
-    height: 300px;
-    margin: 40px;
-}
-.mapa2{
-    width: 300px;
-    height: 300px;
-    margin: 40px;
-}
-.mapas{
-    width: 300px;
-    height: 300px;
-    margin: 60px;
-    display: inline-block;
-}
-.numero_telefono{
-    margin: 0px;
-    display: inline-block;
-}
-.whatsapp{
-    display: inline-block;
-    margin-top: 80px;
-}
-.direccion{
-    display: inline-flex;
-}
-.direccion1{
-    display: flex;
-}
-.desc_direccion{
-    display: inline-block;
-    width: 300px;
-}
-.desc_direccion1{
-    width: 300px;
-}
-.dir{
-    display: table-caption;
-    margin-top: -20px;
-}
-.dir1{
-    margin-top: -20px;
-}
-li{
-    list-style-type: none;
-}
-.link_wpp{
-    text-decoration: none;
-    color: black;
-}
-.link_wpp:hover{
-    text-decoration: underline;
-}
-.link_mail{
-    text-decoration: none;
-    color: black;
-}
-.link_mail:hover{
-    text-decoration: underline;
-}
-.li_mail{
-    margin-top: 10px;   
-}
-.lista_contacto{
-    padding-top: 40px;
-    margin: 0px;
-}
-.foto_contacto{
-    width: 30px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-.imagen_contacto{
-    width: -webkit-fill-available;
-    margin-bottom: 60px;
-    background-image: url("https://imgs.search.brave.com/fDaRJ7BA3ntwXa6LVIISjo9reqYgYG25mmR1EoUHrBw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Jm/L2M0LzNjYmZjNDY5/MmY0MTQ2MzQzZmQ3/NDRiNjcwYTczOTFl/LmpwZw") no-repeat center fixed;
-    background-size: cover;
-    filter: opacity(0.7);
-    margin-top: 100px;
-}
-}
 
-@media (min-width:768px) and (max-width:1024px){
-    .btn_ver{
+@media (min-width:1024px) {
+    .body {
+        height: 100vh;
+    }
+
+    .collapse {
+        justify-content: end;
+    }
+
+    .card {
+        background-color: #362a21;
+        color: #cba993;
+    }
+
+    .btn {
+        background-color: #C7967C;
+        color: #362a21;
+        border-color: #362a21;
+    }
+
+    nav {
+        background-color: #362a21;
+        padding: 10px;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .navbar-brand {
+        color: white;
+        font-family: 'Unbounded';
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .logo_header {
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Unbounded';
+    }
+
+    .main_index {
+        background-color: #cba993;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn_ver {
         display: flex;
         margin: auto;
         font-weight: bold;
@@ -303,147 +64,158 @@ li{
         height: 50px;
         align-items: center;
     }
-    a{
+
+    a {
         text-decoration: none;
     }
+
+    main {
+        background-color: #cba993;
+        display: flex;
+        justify-content: center;
+    }
+
     .tortas {
         text-align: center;
         margin-top: 50px;
         color: black;
         font-weight: bold;
-      }
-      
-    li{
-        list-style-type: none;
     }
-    .link_wpp{
-        text-decoration: none;
-        color: black;
-    }
-    .link_wpp:hover{
-        text-decoration: underline;
-    }
-    .link_mail{
-        text-decoration: none;
-        color: black;
-    }
-    .link_mail:hover{
-        text-decoration: underline;
-    }
-    .li_mail{
-        margin-top: 10px;   
-    }
-    .lista_contacto{
-        padding-top: 40px;
-        margin: 0px;
-    }
-    .foto_contacto{
-        width: 30px;
-        margin-right: 10px;
-        margin-top: 10px;
-    }
-    .imagen_contacto{
-        width: -webkit-fill-available;
-        margin-bottom: 60px;
-        background-image: url("https://imgs.search.brave.com/fDaRJ7BA3ntwXa6LVIISjo9reqYgYG25mmR1EoUHrBw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Jm/L2M0LzNjYmZjNDY5/MmY0MTQ2MzQzZmQ3/NDRiNjcwYTczOTFl/LmpwZw") no-repeat center fixed;
-        background-size: cover;
-        filter: opacity(0.7);
-        margin-top: 100px;
-    } 
-    footer{
-        margin:0px;
-        padding-top: 0px;
-        background-color: #C7967C;
-    }
-    main{
-        background-color: #cba993;
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         height: auto;
+        max-width: 1200px;
+        padding: 20px;
     }
-    .collapse{
-        justify-content: end;
+
+    .titulo_combo {
+        text-align: center;
+        margin: 10px;
+        font-weight: bold;
     }
-    nav{
-        background-color: #362a21;
-        padding: 10px;
+
+    .foto_combo {
+        width: 100%;
+        height: 200px;
+        margin: 10px;
     }
-    .nav-link{
-        color: white;
+
+    .descripcion_combo {
+        justify-content: center;
+        font-size: 14px;
+        margin-top: 2%;
+        height: 100px;
     }
-    .navbar-brand{
-        color: white;
-        font-family: 'Unbounded';
-        font-weight: bolder;
-        font-size: 30px;
+
+    /* Estilos para la sección de Jugos */
+    .jugos {
+        text-align: center;
+        margin-top: 50px;
+        color: black;
+        font-weight: bold;
     }
-    .logo_header{
-        width: 80px;
-        margin-left: 10px;
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        height: auto;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 20px;
     }
-    h1{
-        color: white;
-        font-family: 'Unbounded';
+
+    .foto_jugos {
+        width: 100%;
+        height: 200px;
+        margin: 10px;
     }
-    .navbar-toggler{
-        background-color: white;
-        color: white;
+
+    .descripcion_combo2 {
+        justify-content: center;
+        font-size: 14px;
+        margin-top: 2%;
+        height: 100px;
     }
-    .mapa1{
-        width: 300px;
-        height: 300px;
-        margin: 40px;
+
+    /* Estilos para la sección de Postres */
+    .postres {
+        text-align: center;
+        margin-top: 50px;
+        color: black;
+        font-weight: bold;
     }
-    .mapa2{
-        width: 300px;
-        height: 300px;
-        margin: 40px;
+
+    .grid3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        height: auto;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 20px;
     }
-    .mapas{
-        width: 300px;
-        height: 300px;
-        margin: 60px;
-        display: inline-block;
+
+    .foto_torta {
+        width: 100%;
+        height: 200px;
+        margin: 10px;
     }
-    .numero_telefono{
-        margin: 0px;
-        display: inline-block;
+
+    .descripcion_combo3 {
+        justify-content: center;
+        font-size: 14px;
+        margin-top: 2%;
+        height: 100px;
     }
-    .whatsapp{
-        display: inline-block;
-        margin-top: 80px;
+
+    /* Estilos para la sección de Promociones */
+    .promociones {
+        text-align: center;
+        margin-top: 50px;
+        color: black;
+        font-weight: bold;
     }
-    .direccion{
-        display: inline-flex;
+
+    .grid4 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        height: auto;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 20px;
     }
-    .direccion1{
-        display: flex;
+
+    .foto_promocion {
+        width: 100%;
+        height: 200px;
+        margin: 10px;
     }
-    .desc_direccion{
-        display: inline-block;
-        width: 300px;
+
+    .descripcion_promocion {
+        justify-content: center;
     }
-    .desc_direccion1{
-        width: 300px;
-    }
-    .dir{
-        display: table-caption;
-        margin-top: -20px;
-    }
-    .dir1{
-        margin-top: -20px;
-    }
-    .imagen_main{ 
+
+    .imagen_main {
         width: 40%;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .contenedor_imagen{
+
+    .contenedor_imagen {
         display: flex;
         justify-content: center;
     }
-    .contenedor_main{
+
+    .contenedor_main {
         display: inline-block;
     }
-    .titulo_main_index{
+
+    .titulo_main_index {
         font-weight: bolder;
         font-family: 'Unbounded', cursive;
         font-size: 60px;
@@ -452,50 +224,201 @@ li{
         text-shadow: 1px 4px white;
         margin: 5%;
     }
-    .bienvenida{
+
+    .bienvenida {
         margin: 60px;
     }
-    .grid {
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 12% 12% 12% 12%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 30px;
-        }
-        .grid2 {
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 12% 12% 12% 12%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-top: 30px;
-        }
-        .titulo_combo {
-        font-size: 24px;
-        }
-        .foto_combo {
-        width: 100%;
-        height: auto;
-        margin: 0;
-        }
-        .foto_jugos, .foto_torta {
-        width: 100%;
-        height: auto;
-        margin: 0;
-        }
-        .descripcion_combo {
-        font-size: 14px;
-        margin-top: 5%;
-        }
-        .producto1, .producto4, .producto7 {
-        margin-bottom: 20px;
-        }
-        .producto2, .producto5, .producto8 {
-        margin-right: 5%;
-        }
-        }
 
-@media (max-width:767px){
-    .btn_ver{
+    footer {
+        margin: 0px;
+        padding-top: 0px;
+        background-color: #C7967C;
+    }
+
+    .mapa1 {
+        width: 300px;
+        height: 300px;
+        margin: 40px;
+    }
+
+    .mapa2 {
+        width: 300px;
+        height: 300px;
+        margin: 40px;
+    }
+
+    .mapas {
+        width: 300px;
+        height: 300px;
+        margin: 60px;
+        display: inline-block;
+    }
+
+    .numero_telefono {
+        margin: 0px;
+        display: inline-block;
+    }
+
+    .whatsapp {
+        display: inline-block;
+        margin-top: 80px;
+    }
+
+    .direccion {
+        display: inline-flex;
+        margin-top: 150px;
+    }
+
+    .direccion1 {
+        display: flex;
+        margin-top: 150px;
+    }
+
+    .desc_direccion {
+        display: inline-block;
+        width: 300px;
+    }
+
+    .desc_direccion1 {
+        width: 300px;
+    }
+
+    .dir {
+        display: table-caption;
+        margin-top: -20px;
+    }
+
+    .dir1 {
+        margin-top: -20px;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .link_wpp {
+        text-decoration: none;
+        color: black;
+    }
+
+    .link_wpp:hover {
+        text-decoration: underline;
+    }
+
+    .link_mail {
+        text-decoration: none;
+        color: black;
+    }
+
+    .link_mail:hover {
+        text-decoration: underline;
+    }
+
+    .li_mail {
+        margin-top: 10px;
+    }
+
+    .lista_contacto {
+        display: flex;
+        display: inline-block;
+        padding-top: 40px;
+        margin: 0px;
+    }
+
+    .main_contacto {
+        display: flex;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .foto_contacto {
+        width: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .imagen_contacto {
+        width: -webkit-fill-available;
+        margin-bottom: 60px;
+        background-image: url("https://imgs.search.brave.com/fDaRJ7BA3ntwXa6LVIISjo9reqYgYG25mmR1EoUHrBw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Jm/L2M0LzNjYmZjNDY5/MmY0MTQ2MzQzZmQ3/NDRiNjcwYTczOTFl/LmpwZw") no-repeat center fixed;
+        background-size: cover;
+        filter: opacity(0.7);
+        margin-top: 100px;
+        display: flex;
+        display: inline-block;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        padding-top: 60px;
+        grid-gap: 20px;
+        grid-row-gap: 30px;
+        padding-bottom: 60px;
+    }
+    .combos{
+        width: 100vw;
+        background-image: url("https://imgs.search.brave.com/O8047IteQYbm02UJcucb2uw0mbUpEQ7K3cudHNNSMB4/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/OHlHUzJyQTZxVFc4/WTFrcE9jQlpnSGFI/YSZwaWQ9QXBp");
+    }
+    .cafes{
+      width: 100vw;
+      background-image: url("https://imgs.search.brave.com/N0P77aKf7jPLudrMZ5Q3w-uVyIC5EQqLiC4YHrbd9RI/rs:fit:1200:768:1/g:ce/aHR0cHM6Ly9hbWVj/YWZlLm9yZy5teC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/OS9Gb25kby1DQUZF/LmpwZw");
+    }
+    .textos_combos{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 200px;
+        margin-bottom: 0;
+    }
+    .textos_cafes{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    .tortas{
+        width: 100vw;
+        background-image: url("https://img.freepik.com/vector-gratis/pasteles-dulces-pizarra_1284-3606.jpg?w=740&t=st=1680147275~exp=1680147875~hmac=05f15f70828557ada549bafbdab77c1a519ca76a89fbaa0c37e4170d16ec37ca");
+    }
+    .textos_tortas{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: -50px;
+        margin-bottom: 200px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .card {
+        background-color: #362a21;
+        color: #cba993;
+    }
+
+    .btn {
+        background-color: #C7967C;
+        color: #362a21;
+        border-color: #362a21;
+    }
+    .main_contacto {
+        display: flex;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .btn_ver {
         display: flex;
         margin: auto;
         font-weight: bold;
@@ -507,162 +430,463 @@ li{
         height: 50px;
         align-items: center;
     }
-    a{
+
+    a {
         text-decoration: none;
     }
-    .grid {
-        grid-template-columns: 100%; 
-        grid-template-rows: auto; 
-        padding: 20px;
-        }
-        .grid2 {
-        grid-template-columns: 100%;
-        grid-template-rows: auto;
-        padding: 20px;
-        }
-        .titulo_combo {
-        font-size: 1.5rem; 
-        }
-        .foto_combo,
-        .foto_jugos,
-        .foto_torta {
-        width: 100%;
-        height: auto; 
-        }
-        .descripcion_combo {
-        font-size: 1rem; 
-        }
-        .producto1,
-        .producto2,
-        .producto3,
-        .producto4,
-        .producto5,
-        .producto6,
-        .producto7,
-        .producto8,
-        .producto9 {
-        margin-bottom: 20px; 
-        margin-right: 0; 
-        }
-   
-    .tortas{
-        color: black;
+
+    .tortas {
         text-align: center;
+        margin-top: 50px;
+        color: black;
+        font-weight: bold;
     }
-    li{
+
+    li {
         list-style-type: none;
     }
-    .link_wpp{
+
+    .link_wpp {
         text-decoration: none;
         color: black;
     }
-    .link_wpp:hover{
+
+    .link_wpp:hover {
         text-decoration: underline;
     }
-    .link_mail{
+
+    .link_mail {
         text-decoration: none;
         color: black;
     }
-    .link_mail:hover{
+
+    .link_mail:hover {
         text-decoration: underline;
     }
-    .li_mail{
-        margin-top: 10px;   
+
+    .li_mail {
+        margin-top: 10px;
     }
-    .lista_contacto{
+
+    .lista_contacto {
         padding-top: 40px;
         margin: 0px;
     }
-    .foto_contacto{
+
+    .foto_contacto {
         width: 30px;
         margin-right: 10px;
         margin-top: 10px;
     }
-    .imagen_contacto{
+
+    .imagen_contacto {
         width: -webkit-fill-available;
         margin-bottom: 60px;
         background-image: url("https://imgs.search.brave.com/fDaRJ7BA3ntwXa6LVIISjo9reqYgYG25mmR1EoUHrBw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Jm/L2M0LzNjYmZjNDY5/MmY0MTQ2MzQzZmQ3/NDRiNjcwYTczOTFl/LmpwZw") no-repeat center fixed;
         background-size: cover;
         filter: opacity(0.7);
         margin-top: 100px;
-    } 
-    footer{
-        margin:0px;
+    }
+
+    footer {
+        margin: 0px;
         padding-top: 0px;
         background-color: #C7967C;
     }
-    main{
+
+    main {
         background-color: #cba993;
         height: auto;
     }
-    .collapse{
+
+    .collapse {
         justify-content: end;
     }
-    nav{
+
+    nav {
         background-color: #362a21;
         padding: 10px;
     }
-    .nav-link{
+
+    .nav-link {
         color: white;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         color: white;
         font-family: 'Unbounded';
         font-weight: bolder;
         font-size: 30px;
     }
-    .logo_header{
+
+    .logo_header {
         width: 80px;
         margin-left: 10px;
     }
-    h1{
+
+    h1 {
         color: white;
         font-family: 'Unbounded';
     }
-    .navbar-toggler{
+
+    .navbar-toggler {
         background-color: white;
         color: white;
     }
-    .mapa1{
+
+    .mapa1 {
+        width: 300px;
+        height: 300px;
+        margin: 40px;
+    }
+
+    .mapa2 {
+        width: 300px;
+        height: 300px;
+        margin: 40px;
+    }
+
+    .mapas {
+        width: 300px;
+        height: 300px;
+        margin: 60px;
+        display: inline-block;
+    }
+
+    .numero_telefono {
+        margin: 0px;
+        display: inline-block;
+    }
+
+    .whatsapp {
+        display: inline-block;
+        margin-top: 80px;
+    }
+
+    .direccion {
+        display: inline-flex;
+    }
+
+    .direccion1 {
+        display: flex;
+    }
+
+    .desc_direccion {
+        display: inline-block;
+        width: 300px;
+    }
+
+    .desc_direccion1 {
+        width: 300px;
+    }
+
+    .dir {
+        display: table-caption;
+        margin-top: -20px;
+    }
+
+    .dir1 {
+        margin-top: -20px;
+    }
+
+    .imagen_main {
+        width: 40%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .contenedor_imagen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor_main {
+        display: inline-block;
+    }
+
+    .titulo_main_index {
+        font-weight: bolder;
+        font-family: 'Unbounded', cursive;
+        font-size: 60px;
+        color: black;
+        text-align: center;
+        text-shadow: 1px 4px white;
+        margin: 5%;
+    }
+
+    .bienvenida {
+        margin: 60px;
+    }
+
+    .grid {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 12% 12% 12% 12%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 30px;
+    }
+
+    .grid2 {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 12% 12% 12% 12%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 30px;
+    }
+
+    .titulo_combo {
+        font-size: 24px;
+    }
+
+    .foto_combo {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .foto_jugos,
+    .foto_torta {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .descripcion_combo {
+        font-size: 14px;
+        margin-top: 5%;
+    }
+
+    .producto1,
+    .producto4,
+    .producto7 {
+        margin-bottom: 20px;
+    }
+
+    .producto2,
+    .producto5,
+    .producto8 {
+        margin-right: 5%;
+    }
+}
+
+@media (max-width:767px) {
+    .card {
+        background-color: #362a21;
+        color: #cba993;
+    }
+
+    .btn {
+        background-color: #C7967C;
+        color: #362a21;
+        border-color: #362a21;
+    }
+    .main_contacto {
+        display: flex;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .btn_ver {
+        display: flex;
+        margin: auto;
+        font-weight: bold;
+        border-radius: 6px;
+        width: 120px;
+        margin-bottom: 60px;
+        justify-content: center;
+        background-color: #C7967C;
+        height: 50px;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .grid {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        padding: 20px;
+    }
+
+    .grid2 {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        padding: 20px;
+    }
+
+    .titulo_combo {
+        font-size: 1.5rem;
+    }
+
+    .foto_combo,
+    .foto_jugos,
+    .foto_torta {
+        width: 100%;
+        height: auto;
+    }
+
+    .descripcion_combo {
+        font-size: 1rem;
+    }
+
+    .producto1,
+    .producto2,
+    .producto3,
+    .producto4,
+    .producto5,
+    .producto6,
+    .producto7,
+    .producto8,
+    .producto9 {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .tortas {
+        color: black;
+        text-align: center;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .link_wpp {
+        text-decoration: none;
+        color: black;
+    }
+
+    .link_wpp:hover {
+        text-decoration: underline;
+    }
+
+    .link_mail {
+        text-decoration: none;
+        color: black;
+    }
+
+    .link_mail:hover {
+        text-decoration: underline;
+    }
+
+    .li_mail {
+        margin-top: 10px;
+    }
+
+    .lista_contacto {
+        padding-top: 40px;
+        margin: 0px;
+    }
+
+    .foto_contacto {
+        width: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .imagen_contacto {
+        width: -webkit-fill-available;
+        margin-bottom: 60px;
+        background-image: url("https://imgs.search.brave.com/fDaRJ7BA3ntwXa6LVIISjo9reqYgYG25mmR1EoUHrBw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Jm/L2M0LzNjYmZjNDY5/MmY0MTQ2MzQzZmQ3/NDRiNjcwYTczOTFl/LmpwZw") no-repeat center fixed;
+        background-size: cover;
+        filter: opacity(0.7);
+        margin-top: 100px;
+    }
+
+    footer {
+        margin: 0px;
+        padding-top: 0px;
+        background-color: #C7967C;
+    }
+
+    main {
+        background-color: #cba993;
+        height: auto;
+    }
+
+    .collapse {
+        justify-content: end;
+    }
+
+    nav {
+        background-color: #362a21;
+        padding: 10px;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .navbar-brand {
+        color: white;
+        font-family: 'Unbounded';
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .logo_header {
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    h1 {
+        color: white;
+        font-family: 'Unbounded';
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        color: white;
+    }
+
+    .mapa1 {
         width: 300px;
         height: 300px;
         margin-left: 40px;
         margin-right: 40px;
         margin-top: 100px;
     }
-    .mapa2{
+
+    .mapa2 {
         width: 300px;
         height: 300px;
         margin-left: 40px;
         margin-right: 40px;
         margin-top: 100px;
     }
-    .mapas{
+
+    .mapas {
         width: 300px;
         height: 300px;
         margin-left: 40px;
         margin-right: 40px;
         margin-top: 60px;
     }
-    .numero_telefono{
+
+    .numero_telefono {
         margin: 0px;
         display: inline-block;
     }
-    .whatsapp{
+
+    .whatsapp {
         display: inline-block;
         margin-top: 80px;
     }
-    .direccion{
+
+    .direccion {
         display: flex;
         justify-content: center;
         align-items: center;
+        align-self: first baseline;
         flex-direction: column;
         margin: auto;
         max-width: 800px;
         height: auto;
         padding: 30px;
     }
-    .direccion1{
+
+    .direccion1 {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -671,34 +895,42 @@ li{
         max-width: 800px;
         height: auto;
         padding: 60px;
-        
+
     }
-    .desc_direccion{
+
+    .desc_direccion {
         width: 300px;
     }
-    .desc_direccion1{
+
+    .desc_direccion1 {
         width: 300px;
     }
-    .dir{
+
+    .dir {
         display: inline-block;
         margin-top: -20px;
     }
-    .dir1{
+
+    .dir1 {
         margin-top: -20px;
     }
-    .imagen_main{ 
+
+    .imagen_main {
         width: 40%;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .contenedor_imagen{
+
+    .contenedor_imagen {
         display: flex;
         justify-content: center;
     }
-    .contenedor_main{
+
+    .contenedor_main {
         display: inline-block;
     }
-    .titulo_main_index{
+
+    .titulo_main_index {
         font-weight: bolder;
         font-family: 'Unbounded', cursive;
         font-size: 30px;
@@ -707,7 +939,8 @@ li{
         text-shadow: 1px 4px white;
         margin: 5%;
     }
-    .bienvenida{
+
+    .bienvenida {
         margin: 60px;
     }
 }
