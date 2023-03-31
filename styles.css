@@ -716,6 +716,49 @@
 }
 
 @media (max-width:767px) {
+    .combos{
+        width: 100vw;
+        height: 33.3%;
+        background-image: url("https://imgs.search.brave.com/O8047IteQYbm02UJcucb2uw0mbUpEQ7K3cudHNNSMB4/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/OHlHUzJyQTZxVFc4/WTFrcE9jQlpnSGFI/YSZwaWQ9QXBp");
+    }
+    .cafes{
+      width: 100vw;  
+      height: 33.3%;
+      background-image: url("https://imgs.search.brave.com/N0P77aKf7jPLudrMZ5Q3w-uVyIC5EQqLiC4YHrbd9RI/rs:fit:1200:768:1/g:ce/aHR0cHM6Ly9hbWVj/YWZlLm9yZy5teC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/OS9Gb25kby1DQUZF/LmpwZw");
+    }
+    .textos_combos{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 6%;
+        padding-bottom: 40px;
+        margin-bottom: 0;
+    }
+    .textos_cafes{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 6%;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    .tortas{
+        width: 100vw;
+        height: 33.3%;
+        background-image: url("https://img.freepik.com/vector-gratis/pasteles-dulces-pizarra_1284-3606.jpg?w=740&t=st=1680147275~exp=1680147875~hmac=05f15f70828557ada549bafbdab77c1a519ca76a89fbaa0c37e4170d16ec37ca");
+    }
+    .textos_tortas{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 6%;
+        padding-bottom: 40px;
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
     body{
         height: 100vh;
     }
