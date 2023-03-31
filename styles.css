@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Noto+Sans+TC&family=Unbounded:wght@200&display=swap');
 
+button.navbar-toggler{
+    background-color: #C7967C;
+}
 @media (min-width:1024px) {
     .body {
         height: 100vh;
@@ -710,12 +713,12 @@
 
 @media (max-width:768px) {
     .combos{
-        width: 100vw;
+        width: 100%;
         height: 33.3%;
         background-image: url("https://imgs.search.brave.com/O8047IteQYbm02UJcucb2uw0mbUpEQ7K3cudHNNSMB4/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/OHlHUzJyQTZxVFc4/WTFrcE9jQlpnSGFI/YSZwaWQ9QXBp");
     }
     .cafes{
-      width: 100vw;  
+      width: 100%;  
       height: 33.3%;
       background-image: url("https://imgs.search.brave.com/N0P77aKf7jPLudrMZ5Q3w-uVyIC5EQqLiC4YHrbd9RI/rs:fit:1200:768:1/g:ce/aHR0cHM6Ly9hbWVj/YWZlLm9yZy5teC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/OS9Gb25kby1DQUZF/LmpwZw");
     }
@@ -739,7 +742,7 @@
         padding-top: 150px;
     }
     .tortas{
-        width: 100vw;
+        width: 100%;
         height: 33.3%;
         background-image: url("https://img.freepik.com/vector-gratis/pasteles-dulces-pizarra_1284-3606.jpg?w=740&t=st=1680147275~exp=1680147875~hmac=05f15f70828557ada549bafbdab77c1a519ca76a89fbaa0c37e4170d16ec37ca");
     }
@@ -749,9 +752,10 @@
         font-weight: bold;
         font-size: 40px;
         padding-top: 150px;
+        margin-bottom: 0px;
     }
     body{
-        height: 100vh;
+        height: 100%;
     }
     .card {
         background-color: #362a21;
@@ -914,6 +918,7 @@
 
     h1 {
         color: white;
+        font-size: 20px;
         font-family: 'Unbounded';
     }
 
