@@ -70,6 +70,7 @@
     }
 
     main {
+        height: 100%;
         background-color: #cba993;
         display: flex;
         justify-content: center;
@@ -403,6 +404,9 @@
 }
 
 @media (min-width:768px) and (max-width:1024px) {
+    body{
+        height: 100vh;
+    }
     .combos{
         width: 100vw;
         height: 33.3%;
@@ -539,7 +543,7 @@
 
     main {
         background-color: #cba993;
-        height: auto;
+        height: 100%;
     }
 
     .collapse {
@@ -712,6 +716,9 @@
 }
 
 @media (max-width:767px) {
+    body{
+        height: 100vh;
+    }
     .card {
         background-color: #362a21;
         color: #cba993;
@@ -843,7 +850,7 @@
 
     main {
         background-color: #cba993;
-        height: auto;
+        height: 100%;
     }
 
     .collapse {
