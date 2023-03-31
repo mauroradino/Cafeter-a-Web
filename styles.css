@@ -339,7 +339,6 @@
 
     .imagen_contacto {
         width: -webkit-fill-available;
-        margin-bottom: 60px;
         background-image: url("https://imgs.search.brave.com/fDaRJ7BA3ntwXa6LVIISjo9reqYgYG25mmR1EoUHrBw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Jm/L2M0LzNjYmZjNDY5/MmY0MTQ2MzQzZmQ3/NDRiNjcwYTczOTFl/LmpwZw") no-repeat center fixed;
         background-size: cover;
         filter: opacity(0.7);
@@ -359,11 +358,13 @@
         padding-bottom: 60px;
     }
     .combos{
-        width: 100vw;
+        width: 98.8vw;
+        height: 33.3%;
         background-image: url("https://imgs.search.brave.com/O8047IteQYbm02UJcucb2uw0mbUpEQ7K3cudHNNSMB4/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/OHlHUzJyQTZxVFc4/WTFrcE9jQlpnSGFI/YSZwaWQ9QXBp");
     }
     .cafes{
-      width: 100vw;
+      width: 98.8vw;  
+      height: 33.3%;
       background-image: url("https://imgs.search.brave.com/N0P77aKf7jPLudrMZ5Q3w-uVyIC5EQqLiC4YHrbd9RI/rs:fit:1200:768:1/g:ce/aHR0cHM6Ly9hbWVj/YWZlLm9yZy5teC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/OS9Gb25kby1DQUZF/LmpwZw");
     }
     .textos_combos{
@@ -371,9 +372,8 @@
         font-weight: bold;
         text-align: center;
         font-size: 40px;
-        padding-top: 40px;
+        padding-top: 6%;
         padding-bottom: 40px;
-        margin-top: 200px;
         margin-bottom: 0;
     }
     .textos_cafes{
@@ -381,12 +381,13 @@
         font-weight: bold;
         text-align: center;
         font-size: 40px;
-        padding-top: 40px;
+        padding-top: 6%;
         padding-bottom: 40px;
         margin: 0;
     }
     .tortas{
-        width: 100vw;
+        width: 98.8vw;
+        height: 33.3%;
         background-image: url("https://img.freepik.com/vector-gratis/pasteles-dulces-pizarra_1284-3606.jpg?w=740&t=st=1680147275~exp=1680147875~hmac=05f15f70828557ada549bafbdab77c1a519ca76a89fbaa0c37e4170d16ec37ca");
     }
     .textos_tortas{
@@ -394,7 +395,7 @@
         font-weight: bold;
         text-align: center;
         font-size: 40px;
-        padding-top: 40px;
+        padding-top: 6%;
         padding-bottom: 40px;
         margin-top: -50px;
         margin-bottom: 200px;
@@ -402,6 +403,49 @@
 }
 
 @media (min-width:768px) and (max-width:1024px) {
+    .combos{
+        width: 100vw;
+        height: 33.3%;
+        background-image: url("https://imgs.search.brave.com/O8047IteQYbm02UJcucb2uw0mbUpEQ7K3cudHNNSMB4/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5O/OHlHUzJyQTZxVFc4/WTFrcE9jQlpnSGFI/YSZwaWQ9QXBp");
+    }
+    .cafes{
+      width: 100vw;  
+      height: 33.3%;
+      background-image: url("https://imgs.search.brave.com/N0P77aKf7jPLudrMZ5Q3w-uVyIC5EQqLiC4YHrbd9RI/rs:fit:1200:768:1/g:ce/aHR0cHM6Ly9hbWVj/YWZlLm9yZy5teC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/OS9Gb25kby1DQUZF/LmpwZw");
+    }
+    .textos_combos{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 6%;
+        padding-bottom: 40px;
+        margin-bottom: 0;
+    }
+    .textos_cafes{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 6%;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+    .tortas{
+        width: 100vw;
+        height: 33.3%;
+        background-image: url("https://img.freepik.com/vector-gratis/pasteles-dulces-pizarra_1284-3606.jpg?w=740&t=st=1680147275~exp=1680147875~hmac=05f15f70828557ada549bafbdab77c1a519ca76a89fbaa0c37e4170d16ec37ca");
+    }
+    .textos_tortas{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 6%;
+        padding-bottom: 40px;
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
     .card {
         background-color: #362a21;
         color: #cba993;
@@ -481,7 +525,6 @@
 
     .imagen_contacto {
         width: -webkit-fill-available;
-        margin-bottom: 60px;
         background-image: url("https://imgs.search.brave.com/fDaRJ7BA3ntwXa6LVIISjo9reqYgYG25mmR1EoUHrBw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Jm/L2M0LzNjYmZjNDY5/MmY0MTQ2MzQzZmQ3/NDRiNjcwYTczOTFl/LmpwZw") no-repeat center fixed;
         background-size: cover;
         filter: opacity(0.7);
@@ -592,7 +635,6 @@
     .imagen_main {
         width: 40%;
         margin-top: 30px;
-        margin-bottom: 30px;
     }
 
     .contenedor_imagen {
@@ -787,7 +829,6 @@
 
     .imagen_contacto {
         width: -webkit-fill-available;
-        margin-bottom: 60px;
         background-image: url("https://imgs.search.brave.com/fDaRJ7BA3ntwXa6LVIISjo9reqYgYG25mmR1EoUHrBw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNjL2Jm/L2M0LzNjYmZjNDY5/MmY0MTQ2MzQzZmQ3/NDRiNjcwYTczOTFl/LmpwZw") no-repeat center fixed;
         background-size: cover;
         filter: opacity(0.7);
